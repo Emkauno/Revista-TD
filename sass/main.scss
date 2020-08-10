@@ -1,0 +1,24 @@
+@import "abstracts/placeholders";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+//vendors
+
+@import "vendors/bootstrap_4.5.0/bootstrap";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "components/buttons";
+@import "components/paginator";
+
+@import "layout/footer";
+@import "layout/blogpost";
+@import "layout/header";
+@import "layout/navigation";
+
+@import "pages/contact";
+@import "pages/home";
+
+@import "themes/admin";
+@import "themes/theme";
